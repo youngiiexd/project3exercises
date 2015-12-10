@@ -1,0 +1,100 @@
+body {
+background-color:green;
+font-size: 30px;
+}
+
+#container {
+width: 215px;
+height: 190px;
+color: #000000;
+background-color: white;
+padding: 5px;
+}
+
+#container2 {
+width: 215px;
+height: 190px;
+color: #000000;
+font-weight: bold;
+background-color: white;
+padding: 50px;
+margin: 40px;
+opacity: 0.4;
+}
+
+.sidebar {
+font-family: helvetica;
+width: 215px;
+height: 190px;
+color: #000000;
+}
+
+#orangebox {
+width: 400px;
+height: 400px;
+background-color: orange;
+position: absolute;
+left: 100px;
+top: 500px;
+-moz-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+#redbox {
+width: 400px;
+height: 400px;
+background-color: red;
+position: absolute;
+left: 100px;
+top: 900px;
+transform: rotate(45deg);
+opacity: 0.24;
+}
+
+#hello {
+color: blue;
+}
+
+#blackbox {
+width: 100px;
+height: 200px;
+background-color: black;
+position: relative;
+right:-100px;
+top: 50px;
+transform: skewX(25deg);
+}
+
+
+#bluebox {
+width: 100px;
+height: 200px;
+background-color: blue;
+position: absolute;
+right:620px;
+top: 50px;
+transform: skewX(45deg);
+}
+
+#pinkbox {
+width: 300px;
+height: 200px;
+background-color: pink;
+position: absolute;
+right:720px;
+top: 70px;
+transform: skewX(15deg);
+}
+
+#purplebox {
+width: 700px;
+height: 500px;
+background-color: purple;
+position: absolute;
+right:920px;
+top: 150px;
+transform: skewX(15deg);
+}

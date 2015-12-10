@@ -1,0 +1,27 @@
+#container {
+float: right; 
+width: 30px;
+height: 150px;
+background-color: orange;
+color:white;
+padding: 4px;
+margin:40px; 
+border: 4px double #fff;
+margin: 10px auto 10px auto;
+font-family: futura;
+transform: rotate(0deg);
+}
+
+
+#container2 {
+float: right; 
+width: 60px;
+height: 150px;
+background-color: pink;
+color:white;
+padding: 4px;
+margin:40px; 
+font-family: futura;
+transform: rotate(0deg);
+}
+
