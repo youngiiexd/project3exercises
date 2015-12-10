@@ -1,0 +1,136 @@
+body {
+	background: #000000;
+}
+
+p {
+	color: #ffffff;
+	font-family: 'Share Tech Mono', sans-serif;
+	font-size: 35px;
+}
+
+#square {
+width: 610px;
+height: 400px;
+background-color: #000000;
+position: absolute;
+left: 430px;
+top: 160px;
+border: 3px solid #9c9c9c;
+border-radius: 20px;
+}
+
+#screen {
+width: 570px;
+height: 360px;
+background-color: #ffffff;
+position: absolute;
+left: 453px;
+top: 183px;
+border: 1px solid #000000;
+border-radius: 0px;
+}
+
+#bottom {
+width: 710px;
+height: 20px;
+background-color: #9c9c9c;
+position: absolute;
+left: 381px;
+top: 560px;
+border: 0px solid #a2a2a2;
+border-radius: 0px 0px 12px 12px;
+}
+
+#phrase1 {
+position: absolute;
+left: 510px;
+top: 280px;
+font-family: 'Share Tech Mono', sans-serif;
+font-size: 35px;
+color: #ffffff;
+line-height: 60px;
+text-align: center;
+}
+
+#star {
+position: absolute;
+left: 645px;
+top: 245px;
+font-family: 'Share Tech Mono', sans-serif;
+font-size: 35px;
+color: #f9e34e;
+line-height: 60px;
+text-align: center;
+}
+
+#phrase2 {
+position: absolute;
+left: 737px;
+top: 280px;
+font-family: 'Share Tech Mono', sans-serif;
+font-size: 35px;
+color: #ffffff;
+line-height: 60px;
+text-align: center;
+}
+
+#phrase3 {
+position: absolute;
+left: 510px;
+top: 350px;
+font-family: 'Share Tech Mono', sans-serif;
+font-size: 35px;
+color: #ffffff;
+line-height: 60px;
+text-align: center;
+}
+
+#sky {
+	z-index: 999999999;
+}
+
+#arrow {
+position: relative;
+left: 10px;
+top: 680px;
+font-family: 'Share Tech Mono', sans-serif;
+font-size: 30px;
+color: #ffffff;
+line-height: 60px;
+text-align: center;
+}
+
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #c9c9c9;
+}
+
+a:active {
+	color: #ffffff;
+}
+
+.pulsate {
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.1;
+    color: #faf168;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,67 @@
+body {
+	padding-left: 200px;
+}
+
+h1 {
+	background: #ffffff;
+	font-family: 'avenir';
+	color: #cccccc;
+	text-align: left;
+	font-size: 30px;
+	padding-top: 50px;
+}
+
+#first {
+	background: #ffffff;
+	font-family: 'avenir';
+	color: #c9c9c9;
+	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+	height: 800px;
+	width: 400px;
+}	
+
+#container {
+	background: #ffffff;
+	font-family: 'avenir';
+	color: #c9c9c9;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold
+	float: inline;
+	width: 400px;
+}
+
+p {
+	background: #ffffff;
+	font-family: 'avenir';
+	text-align: justify;
+	font-size: 15px;
+	width: 600px;
+	line-height: 25px;
+
+}
+
+
+a:link {
+	color: #090909;
+	text-decoration: none;
+	font-family: avenir;
+	font-weight: bold;
+	font-style: uppercase;
+	font-size:25px;
+}
+
+a:visited {
+	color: #090909;
+}
+
+a:hover {
+	color: #090909;
+}
+
+a:active {
+	color: #090909;
+}

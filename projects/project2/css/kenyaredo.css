@@ -1,0 +1,132 @@
+body {
+}
+
+h1 {
+	background: #ffffff;
+	font-family: 'avenir';
+	color: #053248;
+	text-align: left;
+	font-size: 26px;
+	padding-top: 50px;
+}
+
+h2 {
+	background: #ffffff;
+	font-family: 'avenir';
+	color: #c9c9c9;
+	text-align: left;
+	font-size: 20px;
+}
+
+h3 {
+	background: #ffffff;
+	font-family: 'avenir';
+	color: #8c8c8c;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h4 {
+	background: #ffffff;
+	font-family: 'avenir';
+	color: #8c8c8c;
+	text-align: left;
+	font-size: 11px;
+	line-height: 20px;
+	font-style: normal;
+}
+
+h5 {
+	background: #ffffff;
+	font-family: 'avenir';
+	color: #053248;
+	text-align: left;
+	font-size: 14px;
+	font-style: italic;
+	font-style: bold;
+	line-height: 20px;
+	width: 500px;
+}
+
+p {
+	background: #ffffff;
+	font-family: 'avenir';
+	text-align: justify;
+	font-size: 13px;
+	width: 500px;
+	line-height: 23px;
+
+}
+
+#topbar {
+	width: 1460px;
+	height:45px;
+	background-color: #053248;
+	margin-top: -20px;
+	margin-left: -20px;
+	position: fixed;
+}
+
+#header {
+	width: 500px;
+	margin-top: ;
+	padding-left: 150px;
+	padding-right: 100px;
+	margin-left: 290px;
+}
+
+#leftside {
+	width: 500px;
+	padding-left: 150px;
+	padding-right: 100px;
+}
+
+#leftbottom {
+	width: 500px;
+	margin-left: 150px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#rightside {
+	margin-left: 750px;
+	margin-top: -965px;
+}
+
+#middleside {
+	margin-left: 0px;
+}
+
+#middlelow {
+	width: 500px;
+	padding-left: 0px;
+	padding-right: 100px;
+	margin-top: 35px;
+}
+
+#work {
+	width: 500px;
+	position: fixed;
+}
+
+a:link {
+	color: #090909;
+	text-decoration: none;
+	font-family: avenir;
+	font-weight: bold;
+	font-style: uppercase;
+	font-size:25px;
+}
+
+a:visited {
+	color: #090909;
+}
+
+a:hover {
+	color: #090909;
+}
+
+a:active {
+	color: #090909;
+}

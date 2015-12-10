@@ -1,0 +1,60 @@
+body {
+	padding-left: 400px;
+}
+
+h1 {
+	background: #ffffff;
+	font-family: 'avenir';
+	color: #cccccc;
+	text-align: left;
+	font-size: 30px;
+	padding-top: 50px;
+}
+
+#quote {
+	background: #ffffff;
+	font-family: 'avenir';
+	color: #c9c9c9;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p {
+	background: #ffffff;
+	font-family: 'avenir';
+	text-align: justify;
+	font-size: 15px;
+	width: 600px;
+	line-height: 25px;
+
+}
+
+ul {
+	background: #ffffff;
+	font-family: 'avenir';
+	text-align: left;
+	font-size: 15px;
+	width: 700px;
+}
+
+a:link {
+	color: #090909;
+	text-decoration: none;
+	font-family: avenir;
+	font-weight: bold;
+	font-style: uppercase;
+	font-size:25px;
+}
+
+a:visited {
+	color: #090909;
+}
+
+a:hover {
+	color: #090909;
+}
+
+a:active {
+	color: #090909;
+}

@@ -1,0 +1,211 @@
+body {
+	background: #000000;
+}
+
+p {
+	color: #faf168;
+	font-family: avenir;
+	font-size: 23px;
+}
+
+#m1 {
+	margin-left: 300px;
+	margin-top: -720px;
+}
+
+#m2 {
+	margin-left: 248px;
+	margin-top: -30px;
+	letter-spacing: 2px;
+}
+
+#m3 {
+	margin-left: 210px;
+	margin-top: -30px;
+	letter-spacing: 3px;
+}
+
+#m4 {
+	margin-left: 185px;
+	margin-top: -30px;
+	letter-spacing: 4px;
+}
+
+#m5 {
+	margin-left: 160px;
+	margin-top: -30px;
+	letter-spacing: 5px;
+}
+
+#m6 {
+	margin-left: 145px;
+	margin-top: -30px;
+	letter-spacing: 5px;
+}
+
+#m7 {
+	margin-left: 130px;
+	margin-top: -30px;
+	letter-spacing: 5.5px;
+}
+
+#m8 {
+	margin-left: 120px;
+	margin-top: -30px;
+	letter-spacing: 5.5px;
+}
+
+#m9 {
+	margin-left: 110px;
+	margin-top: -30px;
+	letter-spacing: 5.5px;
+}
+
+#m10 {
+	margin-left: 105px;
+	margin-top: -30px;
+	letter-spacing: 5.5px;
+}
+
+#m11 {
+	margin-left: 100px;
+	margin-top: -30px;
+	letter-spacing: 5.5px;
+}
+
+#m12 {
+	margin-left: 95px;
+	margin-top: -30px;
+	letter-spacing: 5.5px;
+}
+
+#m13 {
+	margin-left: 93px;
+	margin-top: -30px;
+	letter-spacing: 6px;
+}
+
+#m14 {
+	margin-left: 93px;
+	margin-top: -30px;
+	letter-spacing: 6px;
+}
+
+#m15 {
+	margin-left: 95px;
+	margin-top: -30px;
+	letter-spacing: 6px;
+}
+
+#m16 {
+	margin-left: 98px;
+	margin-top: -30px;
+	letter-spacing: 6px;
+}
+
+#m17 {
+	margin-left: 103px;
+	margin-top: -30px;
+	letter-spacing: 6px;
+}
+
+#m18 {
+	margin-left: 113px;
+	margin-top: -30px;
+	letter-spacing: 5.5px;
+}
+
+#m19 {
+	margin-left: 120px;
+	margin-top: -30px;
+	letter-spacing: 5.5px;
+}
+
+#m20 {
+	margin-left: 132px;
+	margin-top: -30px;
+	letter-spacing: 5.5px;
+}
+
+#m20 {
+	margin-left: 132px;
+	margin-top: -30px;
+	letter-spacing: 5.5px;
+}
+
+#m21 {
+	margin-left: 147px;
+	margin-top: -30px;
+	letter-spacing: 5px;
+}
+
+#m22 {
+	margin-left: 167px;
+	margin-top: -30px;
+	letter-spacing: 4.5px;
+}
+
+#m23 {
+	margin-left: 184px;
+	margin-top: -30px;
+	letter-spacing: 4.5px;
+}
+
+#m24 {
+	margin-left: 210px;
+	margin-top: -30px;
+	letter-spacing: 4px;
+}
+
+#m25 {
+	margin-left: 243px;
+	margin-top: -30px;
+	letter-spacing: 3px;
+}
+
+#m26 {
+	margin-left: 295px;
+	margin-top: -30px;
+	letter-spacing: 0px;
+}
+
+#mainpic {
+	margin-left: 400px;
+	margin-top: 30px;
+}
+
+a:link {
+	color: #fffad0;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #fff49b;
+}
+
+a:active {
+	color: #ffffff;
+}
+
+
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+    color: #faf168;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}

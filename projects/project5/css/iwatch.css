@@ -1,0 +1,183 @@
+body {
+	background: #000000;
+}
+
+p {
+	color: #ffffff;
+	font-family: avenir;
+	font-size: 20px;
+}
+
+#base {
+width: 250px;
+height: 271px;
+background-color: #9c9c9c;
+position: absolute;
+left: 600px;
+top: 250px;
+border: 0px solid #a2a2a2;
+-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	border-radius: 45px;
+}
+
+#screen {
+width: 236px;
+height: 256px;
+background-color: #000000;
+position: absolute;
+left: 605px;
+top: 255px;
+border: 2px solid #ffffff;
+-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	border-radius: 43px;
+}
+
+#scroll {
+	width: 8px;
+	height: 35px;
+	position: absolute;
+	left: 850px;
+	top: 310px;
+	background: #eeeeee;
+	border-radius: 0px 20px 20px 0px;
+	z-index: 99999999999;
+	border: 0px solid #ffffff;
+
+}
+
+#below {
+	width: 4px;
+	height: 50px;
+	position: absolute;
+	left: 850px;
+	top: 410px;
+	background: #eeeeee;
+	border-radius: 20px 20px 20px 20px;
+	z-index: 999999999999;
+	border: 0px solid #ffffff;
+
+}
+
+#redtop {
+width: 100px;
+height: 100px;
+background-color: #ef4344;
+position: absolute;
+border-radius: 20px 20px 0px 20px;
+left:698px;
+top: 150px;
+transform: skewX(10deg);
+}
+
+#redtopl {
+width: 100px;
+height: 100px;
+background-color: #ef4344;
+position: absolute;
+border-radius: 20px 0px 20px 0px;
+left:652px;
+top: 150px;
+transform: skewx(15deg);
+ -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        transform: skewx(-10deg);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+#redbottom {
+width: 100px;
+height: 100px;
+background-color: #ef4344;
+position: absolute;
+border-radius: 20px 0px 20px 0px;
+left:698px;
+top: 521px;
+transform: skewx(15deg);
+ -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        transform: skewx(-10deg);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#redbottoml {
+width: 100px;
+height: 100px;
+background-color: #ef4344;
+position: absolute;
+border-radius: 0px 0px 0px 20px;
+left:652px;
+top: 521px;
+transform: skewx(-15deg);
+ -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        transform: skewx(10deg);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#phrase {
+position: absolute;
+left: 650px;
+top: 280px;
+font-family: 'Share Tech Mono', sans-serif;
+font-size: 20px;
+color: #ffffff;
+line-height: 60px;
+text-align: center;
+}
+
+#arrow {
+position: relative;
+left: 10px;
+top: 680px;
+font-family: 'Share Tech Mono', sans-serif;
+font-size: 30px;
+color: #ffffff;
+line-height: 60px;
+text-align: center;
+}
+
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #c9c9c9;
+}
+
+a:active {
+	color: #ffffff;
+}
+
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+svg{
+  width: 280px;
+  height: 120px;
+  position: absolute;
+  left: 62px;
+  top: 300px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: none;
+}
