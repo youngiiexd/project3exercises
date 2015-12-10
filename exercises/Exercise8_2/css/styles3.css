@@ -1,0 +1,14 @@
+body {
+	background: #FF9FA1;
+	background: linear-gradient(to right, #FF9FA1, #FF4D32 75%, #CAB0D4);
+}
+
+p {
+	color: #ffffff;
+	font-family: avenir;
+}
+
+#container {
+	width: 300px;
+	height: 500px;
+}

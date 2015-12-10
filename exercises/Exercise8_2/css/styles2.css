@@ -1,0 +1,32 @@
+body {
+	background: #FF9FA1;
+	background: url(../images/flowers.jpg);
+	background-repeat: repeat;
+}
+
+p {
+	color: #ffffff;
+	font-family: avenir;
+}
+
+#container {
+	width: 500px;
+	height: 500px;
+}
+
+a:link {
+	color: #c9c9c9;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ff4d32;
+}
+
+a:hover {
+	color: #ff00ff;
+}
+
+a:active {
+	color: #0000ff;
+}
